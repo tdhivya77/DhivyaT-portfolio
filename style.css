@@ -1,0 +1,355 @@
+/*home*/
+
+.section-title {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+.navbar-custom {
+  background: linear-gradient(135deg, #712cf9, #5a23c8);
+}
+.navbar-custom .nav-link,
+.navbar-custom .navbar-brand {
+  color: white;
+  font-weight: 500;
+}
+.navbar-custom .nav-link:hover {
+  color: orange;
+}
+.navbar.fixed-top {
+  box-shadow: 0 4px 10px orange;
+}
+
+#but:hover {
+  background: linear-gradient(135deg, #712cf9, #5a23c8);
+}
+/*emoji styling*/
+.hello-emoji {
+  display: inline-block;
+  transform-origin: 70% 70%;
+  animation: wave 1.5s infinite;
+}
+@keyframes wave {
+  0% {
+    transform: rotate(0deg);
+  }
+  20% {
+    transform: rotate(15deg);
+  }
+  40% {
+    transform: rotate(-10deg);
+  }
+  60% {
+    transform: rotate(15deg);
+  }
+  80% {
+    transform: rotate(0deg);
+  }
+}
+
+.bg-linear-gr {
+  min-height: 100vh;
+  background-color: #f1f2f4;
+}
+
+.home-section {
+  padding-top: 120px;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+.img {
+  height: auto;
+  width: 100%;
+  max-width: 350px;
+
+  object-fit: cover;
+  border-radius: 50%;
+  border: 5px solid white;
+  animation-name: move;
+  animation-duration: 2s;
+  animation-timing-function: ease;
+  animation-fill-mode: forwards;
+}
+@keyframes move {
+  from {
+    transform: scale(0.9);
+  }
+  to {
+    tranform: scale(1);
+  }
+}
+/*education*/
+.edu-icon {
+  font-style: normal;
+  font-size: 30px;
+  margin-right: 8px;
+}
+.education {
+  min-height: 100vh;
+  background-color: #f1f2f4;
+}
+
+.title {
+  background: linear-gradient(135deg, #712cf9, #5a23c8);
+  padding: 10px;
+  text-align: center;
+  padding: 10px;
+  font-weight: 500;
+  font-family: "Times New Roman", Times, serif;
+}
+#con1 {
+  background: linear-gradient(135deg, #712cf9, #5a23c8);
+  padding: 10px;
+
+  margin-top: 40px;
+  text-align: center;
+  margin-left: 50px;
+  box-shadow: 0 4px 10px orange;
+}
+
+#con2 {
+  background: linear-gradient(135deg, #712cf9, #5a23c8);
+  padding: 10px;
+
+  margin-top: 40px;
+  text-align: center;
+  margin-left: 50px;
+  box-shadow: 0 4px 10px orange;
+}
+#con3 {
+  background: linear-gradient(135deg, #712cf9, #5a23c8);
+  padding: 10px;
+  margin-top: 40px;
+  text-align: center;
+  margin-left: 50px;
+  box-shadow: 0 4px 10px orange;
+}
+#con1:hover,
+#con2:hover,
+#con3:hover {
+  background: orange;
+  color: rgb(57, 34, 34);
+  transform: translateY(-8px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.25);
+  transition: all 0.3s ease;
+}
+.edu-img {
+  max-width: 400px;
+  width: 100%;
+  height: auto;
+  opacity: 0.95;
+}
+/*skill*/
+.skill-sec {
+  min-height: 100vh;
+  padding-top: 80px;
+}
+
+.skill-box {
+  background: white;
+  height: 120px;
+  width: 100%;
+  padding: 25px;
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+
+  transition: transform 0.3s ease;
+  box-shadow: 0 4px 10px orange;
+}
+.skill-box:hover {
+  transform: translateY(-6px);
+  color: orange;
+}
+
+.skill-box h2 {
+  margin: 0;
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+.skill-box i {
+  font-size: 64px;
+}
+.skill-wrapper {
+  padding: 20px;
+  background: linear-gradient(135deg, #712cf9, #5a23c8);
+  border-radius: 28px;
+  margin: 50px;
+  box-shadow: 0 4px 10px orange;
+}
+/*project*/
+.pro-sec {
+  background-color: white;
+}
+.pro-sec .card {
+  border: solid blueviolet;
+  border-radius: 15px;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+.pro-sec .card-img-top {
+  height: 220px;
+  object-fit: cover;
+  transition: transform 0.4s ease;
+}
+
+.pro-sec .card:hover {
+  transform: translateY(-10px) scale(1.03);
+  box-shadow: 0 18px 35px orange;
+}
+.pro-sec .card:hover .card-img-top {
+  transform: scale(1.1);
+}
+.pro-sec .card-body {
+  background-color: white;
+  color: balck;
+  text-align: center;
+  padding: 20px;
+  border: solid blueviolet;
+}
+.pro-sec .res {
+  margin-bottom: 10px;
+}
+.pro-sec .card-title {
+  font-weight: 600;
+}
+.pro-sec .card-text {
+  font-size: 0.95rem;
+}
+.pro-sec .card-link {
+  color: blueviolet;
+  font-size: large;
+  font-weight: 500;
+}
+.cer-sec {
+  margin-top: 30px;
+}
+
+.certificate {
+  width: 100%;
+  max-height: 450px;
+  box-shadow: 0px 10px 35px orange;
+  transition: transform 0.4s ease;
+}
+.left {
+  padding: 20px;
+  margin-bottom: 5px;
+
+  border-radius: 5px;
+  border-width: 5px;
+  box-shadow: 0px 10px 35px orange;
+  transition: transform 0.4s ease;
+}
+
+.star-list {
+  list-style: none;
+  padding-left: 0;
+}
+.star-list li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 14px;
+}
+
+.star-icon {
+  color: orange;
+  font-size: 22px;
+}
+.cer-sec {
+  margin-bottom: 5px;
+  padding-top: 80px;
+}
+.certi {
+  border: solid 5px blueviolet;
+}
+
+.test-left {
+  animation: moveLeft 1.2s ease-in-out;
+}
+
+.test-right {
+  animation: moveRight 1.2s ease-in-out;
+}
+
+@keyframes moveLeft {
+  0% {
+    transform: translateX(-150px);
+
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+
+    opacity: 1;
+  }
+}
+
+@keyframes moveRight {
+  0% {
+    transform: translateX(150px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+.shadowChange {
+  animation: shadowChange 1.2s ease-in-out forwards;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+}
+#con {
+  background: linear-gradient(135deg, #712cf9, #5a23c8);
+  margin-top: 150px;
+  color: white;
+  max-width: 600px;
+  width: 100%;
+  min-height: 550px;
+  text-align: center;
+  box-shadow: 0 15px 35px orange;
+  animation-name: zoom;
+  animation-timing-function: ease;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+}
+@keyframes zoom {
+  from {
+    transform: scale(0.9);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+#con:hover {
+  transform: scale(1.03) translateY(-6px);
+}
+
+.contact-form button {
+  width: auto;
+  padding: 6px 18px;
+  font-size: 14px;
+  border-radius: 6px;
+  border: none;
+  font-weight: 600;
+  cursor: pointer;
+  background: orange;
+}
+.contact-form button:hover {
+  background: white;
+}
+.conatact-box {
+  text-align: start;
+}
+html {
+  scroll-behavior: smooth;
+}
